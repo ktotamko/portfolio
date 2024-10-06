@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="img/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="img/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="img/favicon/site.webmanifest" />
+		<title>Growly</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<a href="#" class="main-footer__logo">
+						<img class="logo-dark" src="img/logo.svg" alt="Logo" />
+						<img class="logo-light" src="img/logo-light.svg" alt="Logo"
+					/></a>
+					<nav class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a data-goto=".page__main" href="#" class="menu__link"
+										>Home</a
+									>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".page__skills" href="#" class="menu__link"
+										>Skills</a
+									>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".page__portfolio" href="#" class="menu__link"
+										>Portfolio</a
+									>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".page__start" href="#" class="menu__link"
+										>Contact</a
+									>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="header__action">
+						<button type="button" class="header__theme"></button>
+						<button type="button" class="header__reset"></button>
+					</div>
+					<button class="icon-menu" type="button">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__main main">
+					<div class="main__container">
+						<div class="main__body">
+							<div class="main__content">
+								<div class="main__header header-main">
+									<h2 class="header-main__title _anim-items _anim-no-hide">
+										Meet <span>Nataliia U</span>.
+									</h2>
+									<h1 class="header-main__subtitle">
+										your new <span>Developer</span>!
+									</h1>
+									<div class="header-main__text _anim-items _anim-no-hide">
+										<p>
+											Start a new project with me or take an existing one to the
+											next level.
+										</p>
+									</div>
+									<div class="header-main__actions">
+										<a
+											data-goto=".page__portfolio"
+											href="#"
+											class="header-main__button button"
+											>See my works</a
+										>
+										<a data-goto=".page__start" href="#" class="header-main__button button button--dark"
+											>Start Now</a
+										>
+									</div>
+								</div>
+							</div>
+							<div class="main__images _anim-items _anim-no-hide">
+								<img class="phone-dark" src="img/main/phone.svg" alt="image" />
+								<img
+									class="phone-light"
+									src="img/main/phone-light.svg"
+									alt="image"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__skills skills">
+					<div class="skills__container">
+						<h2 class="skills__title">
+							skills that allow me to create beautiful and functional web
+							interfaces
+						</h2>
+						<div class="skills__slider swiper">
+							<div class="skills__wrapper skills__items swiper-wrapper">
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/animation.svg" alt="skills" />
+										<div class="skills__caption">Web <br />Animation</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/compatibility.svg" alt="skills" />
+										<div class="skills__caption">
+											Cross Browser <br />Compatibility
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/html.svg" alt="skills" />
+										<div class="skills__caption">
+											HTML (structure <br />and content)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/css.svg" alt="skills" />
+										<div class="skills__caption">
+											CSS (styling and <br />layout)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/js.svg" alt="skills" />
+										<div class="skills__caption">
+											JS (interactivity and <br />functionality)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/sass.svg" alt="skills" />
+										<div class="skills__caption">
+											CSS Preprocessors <br />(Sass, SCSS)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/figma.svg" alt="skills" />
+										<div class="skills__caption">
+											UI/UX Web Design<br />(Figma)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/git.svg" alt="skills" />
+										<div class="skills__caption">
+											Version Control <br />(Git)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/grid.svg" alt="skills" />
+										<div class="skills__caption">
+											CSS Grid and <br />Flexbox
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/gulp.svg" alt="skills" />
+										<div class="skills__caption">
+											Build Tools (e.g., <br />Webpack, Gulp)
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/responsiveimg.svg" alt="skills" />
+										<div class="skills__caption">
+											Responsive Images <br />and Media
+										</div>
+									</div>
+								</div>
+								<div class="skills__item swiper-slide">
+									<div class="skills__image">
+										<img src="img/skills/responsiveweb.svg" alt="skills" />
+										<div class="skills__caption">
+											Responsive Web <br />Design
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__portfolio portfolio">
+					<div class="portfolio__container">
+						<div class="portfolio__content">
+							<div class="portfolio__header header-main">
+								<h2 class="header-main__title _anim-items _anim-no-hide">
+									Latest <span>Projects</span>
+								</h2>
+								<div class="header-main__text _anim-items _anim-no-hide">
+									<p>Take a look at my latest projects.</p>
+								</div>
+								<div class="header-main__actions">
+									<a data-goto=".page__skills" href="#" class="header-main__button button">See all</a>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__items">
+							<div class="portfolio__column _anim-items _anim-no-hide">
+								<article class="portfolio__item item-portfolio">
+									<a
+										href="https://ktotamko.github.io/growfy/"
+										class="item-portfolio__link"
+									>
+										<div class="item-portfolio__icon">
+											<img src="img/portfolio/01.webp" alt="portfolio" />
+										</div>
+										<h4 class="item-portfolio__title">
+											Marketing Solutions Agency Template
+										</h4>
+									</a>
+								</article>
+								<article class="portfolio__item item-portfolio">
+									<a
+										href="https://ktotamko.github.io/growfy/"
+										class="item-portfolio__link"
+									>
+										<div class="item-portfolio__icon">
+											<img src="img/portfolio/01.webp" alt="portfolio" />
+										</div>
+										<h4 class="item-portfolio__title">Developer Portfolio</h4>
+									</a>
+								</article>
+							</div>
+							<div class="portfolio__column _anim-items _anim-no-hide">
+								<article class="portfolio__item item-portfolio">
+									<a
+										href="https://ktotamko.github.io/growfy/"
+										class="item-portfolio__link"
+									>
+										<div class="item-portfolio__icon">
+											<img src="img/portfolio/01.webp" alt="portfolio" />
+										</div>
+										<h4 class="item-portfolio__title">
+											Home Repair portfolio Template
+										</h4>
+									</a>
+								</article>
+								<article class="portfolio__item item-portfolio">
+									<a
+										href="https://ktotamko.github.io/growfy/"
+										class="item-portfolio__link"
+									>
+										<div class="item-portfolio__icon">
+											<img src="img/portfolio/01.webp" alt="portfolio" />
+										</div>
+										<h4 class="item-portfolio__title">
+											Eco Houses Builder Template
+										</h4>
+									</a>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__start start _anim-items _anim-no-hide">
+					<div class="start__container">
+						<div class="start__body">
+							<div class="start__column">
+								<h2 class="start__title">Still have a question?</h2>
+								<div class="start__text text">
+									<p>
+										Can't find the answer you're looking for? Simply drop me
+										your contact details so I can get in touch with you.
+									</p>
+								</div>
+							</div>
+							<div class="start__column">
+								<div class="start__actions">
+									<a data-goto=".subscribe__input" href="#" class="start__button button">Get in touch</a>
+									<a data-goto=".subscribe__input" href="#" class="start__button button button--dark"
+										>Contact us</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__main main-footer">
+					<div class="main-footer__container">
+						<div class="main-footer__column">
+							<a data-goto=".page__main" href="" class="main-footer__logo">
+								<img data-goto=".page__main" class="logo-dark" src="img/logo.svg" alt="Logo" />
+								<img data-goto=".page__main" class="logo-light" src="img/logo-light.svg" alt="Logo"
+							/></a>
+							<div class="main-footer__text text">
+								<p>
+									Freelance Developer on upwork.com, a great believer in
+									learning by building, and I believe that by challenging myself
+									to think outside the box, I can contribute to shaping a better
+									future.
+								</p>
+							</div>
+							<div class="main-footer__social social">
+								<a
+									href="https://www.linkedin.com/in/natali-yurchenko-b9282b294/"
+									class="social__link"
+									><img src="img/social/01.svg" alt="Social"
+								/></a>
+								<a
+									href="https://github.com/htotamka?tab=repositories"
+									class="social__link"
+									><img src="img/social/02.svg" alt="Social"
+								/></a>
+								<a
+									href="https://www.instagram.com/htotamka/"
+									class="social__link"
+									><img src="img/social/05.svg" alt="Social"
+								/></a>
+								<a
+									href="https://github.com/htotamka?tab=repositories"
+									class="social__link"
+									><img src="img/social/03.svg" alt="Social"
+								/></a>
+								<a
+									href="https://www.linkedin.com/in/natali-yurchenko-b9282b294/"
+									class="social__link"
+									><img src="img/social/04.svg" alt="Social"
+								/></a>
+							</div>
+						</div>
+						<div class="main-footer__column">
+							<div class="main-footer__label">Sitemap</div>
+							<nav class="main-footer__menu menu-footer">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a data-goto=".page__main" href="#" class="menu-footer__link">Home</a>
+									</li>
+									<li class="menu-footer__item">
+										<a data-goto=".page__portfolio" href="#" class="menu-footer__link">Portfolio</a>
+									</li>
+									<li class="menu-footer__item">
+										<a data-goto=".page__skills" href="#" class="menu-footer__link">Skills</a>
+									</li>
+									<li class="menu-footer__item">
+										<a data-goto=".subscribe__input" href="#" class="menu-footer__link">Contact me</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="main-footer__column">
+							<div class="main-footer__label">Resources</div>
+							<nav class="main-footer__menu menu-footer">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a
+											href="https://github.com/htotamka?tab=repositories"
+											class="menu-footer__link"
+											>Opensource</a
+										>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="main-footer__column">
+							<div class="main-footer__label">Still have a question?</div>
+							<div class="main-footer__text text">
+								<p>
+									Can't find the answer you're looking for? Simply drop me your
+									contact details so I can get in touch with you.
+								</p>
+							</div>
+							<form action="#" class="subscribe">
+								<input
+									type="email"
+									class="subscribe__input"
+									placeholder="Enter your email"
+								/>
+								<button type="submit" class="subscribe__button button">
+									Get in touch
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__container">
+						<div class="bottom-footer__copy">
+							Copyright © 2024, Nataliia U. All rights reserved.
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
